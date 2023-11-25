@@ -1,0 +1,4 @@
+client/dist/
+client/index.html
+# Force LF line endings for all files in the node_modules directory
+./node_modules

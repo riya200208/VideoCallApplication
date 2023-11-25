@@ -1,0 +1,10 @@
+# Suppress warnings and specify line ending behavior for specific files in node_modules
+node_modules/@fortawesome/free-solid-svg-icons/* text eol=crlf
+# Suppress warnings and specify line ending behavior for specific files in node_modules
+node_modules/es-abstract/* text eol=crlf
+# Suppress warnings and specify line ending behavior for specific files in node_modules
+node_modules/*/lib/**/* text eol=crlf
+
+
+# Set LF (Unix) line endings for JavaScript files in node_modules
+node_modules/**/*.js text eol=lf
